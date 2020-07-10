@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/internet-explorer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Weight Loss</title>
+</head>
+<body>
+    <main>
+        <h1>Weight Loss</h1>
+        <div class="container-chart">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div id="container-control" class="container-control">
+            <input id="value" type="number">
+            <button onclick="clickAdd()">Add</button>
+            <button class="btn" onclick="clickExport(this)">Export</button>
+            <button onclick="clickImport()">Import</button>
+            <button onclick="clickClear()">Clear</button>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js" integrity="sha512-WiGQZv8WpmQVRUFXZywo7pHIO0G/o3RyiAJZj8YXNN4AV7ReR1RYWVmZJ6y3H06blPcjJmG/sBpOVZjTSFFlzQ==" crossorigin="anonymous"></script>
+    <script src="moment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="main.js"></script>
+</body>
+</html>

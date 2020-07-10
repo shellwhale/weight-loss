@@ -1,0 +1,4 @@
+/* Everything else than Internet Explorer */
+@supports not (-ms-high-contrast: none) {
+    
+}
